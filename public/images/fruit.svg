@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgFruit" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b2f18"/>
+      <stop offset="1" stop-color="#18140c"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="340" fill="url(#bgFruit)"/>
+  <ellipse cx="320" cy="294" rx="214" ry="24" fill="#0c0a05" opacity=".4"/>
+  <!-- banana, arcing across the back of the pile (drawn first so the
+       apples and oranges overlap its ends and it reads as resting there) -->
+  <path d="M256 190q72-62 148-14" stroke="#e0be3d" stroke-width="32" fill="none" stroke-linecap="round"/>
+  <path d="M262 182q68-56 138-12" stroke="#f7e07a" stroke-width="14" fill="none" stroke-linecap="round" opacity=".75"/>
+  <circle cx="256" cy="190" r="8" fill="#8a6f28"/>
+  <circle cx="404" cy="176" r="8" fill="#8a6f28"/>
+  <!-- big apple (two overlapping lobes give the classic top dip) -->
+  <circle cx="158" cy="228" r="44" fill="#cc3f4a"/>
+  <circle cx="200" cy="228" r="44" fill="#cc3f4a"/>
+  <ellipse cx="179" cy="236" rx="43" ry="40" fill="#cc3f4a"/>
+  <ellipse cx="158" cy="212" rx="20" ry="15" fill="#e05663" opacity=".6"/>
+  <path d="M179 196v-24" stroke="#7a5230" stroke-width="8" stroke-linecap="round"/>
+  <path d="M179 178q24-18 44-8-20 20-44 8z" fill="#4fb570"/>
+  <!-- small apple -->
+  <circle cx="272" cy="248" r="36" fill="#b83842"/>
+  <circle cx="306" cy="248" r="36" fill="#b83842"/>
+  <ellipse cx="289" cy="254" rx="35" ry="32" fill="#b83842"/>
+  <ellipse cx="272" cy="234" rx="15" ry="11" fill="#cc4d57" opacity=".55"/>
+  <path d="M289 222v-20" stroke="#7a5230" stroke-width="7" stroke-linecap="round"/>
+  <!-- oranges -->
+  <circle cx="416" cy="234" r="54" fill="#e8811f"/>
+  <circle cx="398" cy="216" r="20" fill="#f59a3c" opacity=".55"/>
+  <path d="M416 180v-12" stroke="#4fb570" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="512" cy="254" r="38" fill="#d5722f"/>
+  <circle cx="500" cy="242" r="14" fill="#e8912f" opacity=".5"/>
+  <path d="M512 216v-10" stroke="#4fb570" stroke-width="7" stroke-linecap="round"/>
+  <!-- berries -->
+  <circle cx="96" cy="284" r="9" fill="#a8446a"/>
+  <circle cx="122" cy="292" r="7" fill="#c05a80"/>
+  <circle cx="574" cy="286" r="8" fill="#a8446a"/>
+</svg>

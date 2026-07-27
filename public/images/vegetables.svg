@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgVeg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17311f"/>
+      <stop offset="1" stop-color="#0c1a11"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="340" fill="url(#bgVeg)"/>
+  <ellipse cx="320" cy="288" rx="216" ry="26" fill="#050d08" opacity=".4"/>
+  <!-- leafy greens -->
+  <path d="M160 262q-56-16-62-74 44 8 62 42z" fill="#3f9c5e"/>
+  <path d="M160 262q-18-56 18-96 26 42 8 96z" fill="#4fb570"/>
+  <path d="M160 262q40-40 96-34 -22 44-72 42z" fill="#3f9c5e"/>
+  <path d="M160 262q6-52 34-72" stroke="#2c7645" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- carrots -->
+  <path d="M300 268l38-104 34 12-46 98z" fill="#e2803a"/>
+  <path d="M300 268l38-104 14 5-38 102z" fill="#f0954e"/>
+  <path d="M338 164q-10-26 4-40M338 164q16-22 34-20M338 164q-24-12-24-32" stroke="#4fb570" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M370 276l46-96 32 16-56 88z" fill="#d5722f"/>
+  <path d="M370 276l46-96 12 6-46 94z" fill="#ea8a45"/>
+  <path d="M416 180q-4-26 12-38M416 180q20-18 38-12" stroke="#4fb570" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- beetroot / radish -->
+  <circle cx="512" cy="238" r="46" fill="#a8446a"/>
+  <circle cx="500" cy="226" r="16" fill="#c05a80" opacity=".55"/>
+  <path d="M512 192q-6-28 10-42M512 192q22-24 42-18" stroke="#4fb570" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <!-- peas -->
+  <circle cx="228" cy="286" r="11" fill="#5cc47e"/>
+  <circle cx="256" cy="292" r="9" fill="#4fb570"/>
+  <circle cx="466" cy="290" r="10" fill="#5cc47e"/>
+</svg>
