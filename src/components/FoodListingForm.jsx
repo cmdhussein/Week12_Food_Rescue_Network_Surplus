@@ -15,11 +15,11 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { LISTING_CATEGORIES } from "../data/listingOptions.js";
 
 const listingSchema = z.object({
-  title: z.string().min(2).max(100).required(),
-  provider: z.string().min(2).max(100).required(),
-  pickupNeighborhood: z.string().min(2).max(100).required(),
-  category: z.enum(LISTING_CATEGORIES).required(),
-  portions: z.coerce.number().min(1).required(),
+  title: z.string().min(2).max(100),
+  provider: z.string().min(2).max(100),
+  pickupNeighborhood: z.string().min(2).max(100),
+  category: z.enum(LISTING_CATEGORIES),
+  portions: z.coerce.number().min(1),
   description: z.string().max(200).optional()
 });
 
